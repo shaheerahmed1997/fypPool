@@ -1,3 +1,4 @@
+import { NavigationHelpersContext } from '@react-navigation/native';
 import React, { useState } from 'react'
 import { View, Text,SafeAreaView,FlatList,StatusBar,TouchableOpacity, Touchable,ScrollView } from 'react-native'
 import TopTab from '../componants/TopTab';
@@ -264,7 +265,12 @@ style={{marginTop:20}}
                         <Text style={{...FONTS.body16,color:'white'}}>Contact</Text>
                     </TouchableOpacity>
 
-                    <TouchableOpacity style={{alignItems:'center',justifyContent:'center',backgroundColor:COLORS.primary,width:110,height:45,borderRadius:10}}>
+                    <TouchableOpacity style={{alignItems:'center',justifyContent:'center',backgroundColor:COLORS.primary,width:110,height:45,borderRadius:10}}
+                    onPress={()=>{
+                        navigation.navigate('SessionsBooking')
+                        
+                    }}
+                    >
                         <Text style={{...FONTS.body16,color:'white'}}>Book a session</Text>
                     </TouchableOpacity>
                 

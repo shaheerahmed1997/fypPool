@@ -91,7 +91,7 @@ const TopTab = ({callback}) => {
                             <View
                             style={{paddingHorizontal:15,alignItems:'center',justifyContent:'center',height:40}}
                             >
-                            <Text style={{...FONTS.h4,color:'white'}}>{item.title}</Text>
+                            <Text style={{...FONTS.h5,color:'white'}}>{item.title}</Text>
                             </View>
 
 

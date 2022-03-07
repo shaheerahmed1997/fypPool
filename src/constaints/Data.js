@@ -143,3 +143,24 @@ export const TopTabBar = [
         title:'Sessions'
     }
 ]
+
+export const DummyProject2 = [
+    {
+        id:'63548644',
+        title:'inDriver Mobile Application',
+        clientName:'Algoace',
+        projectType:'Mobile application',
+        startDate:'13-07-2020',
+        endDate:'1-07-2021',
+        Duration:'6 months',
+        verified:true,  
+        projectDescription:'This project is a mobile based application used for hypnotherapy treatment for the patient deadling with mental issue, physical issue, physological issue',
+        technologiesUsed:[
+            'React Native',
+            'Node js',
+            'AWS-dynamodb',
+            'Serverless',
+        ]
+        
+    }
+]

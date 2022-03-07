@@ -23,6 +23,7 @@ import ChatIcon from './src/svgIcons/ChatIcon';
 import AccountIcon from './src/svgIcons/AccountIcon';
 import ProjectDetail from './src/screen/ProjectDetail';
 import SessionsBooking from './src/screen/SessionsBooking';
+import ProjectDetailToRequest from './src/screen/ProjectDetailToRequest';
 
 
 const Stack = createNativeStackNavigator();
@@ -95,7 +96,8 @@ const App = () => {
         <Stack.Screen name="SignUpInterestIn" component={SignUpInterestIn} />
         <Stack.Screen name="BottomTab" component={TabNavigator} />
         <Stack.Screen name="ProjectDetail" component={ProjectDetail} />
-        <Stack.Screen name="SessionBooking" component={SessionsBooking} />
+        <Stack.Screen name="ProjectDetailToRequest" component={ProjectDetailToRequest} />
+        <Stack.Screen name="SessionsBooking" component={SessionsBooking} />
 
       </Stack.Navigator>
     </NavigationContainer>

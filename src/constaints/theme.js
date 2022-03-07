@@ -19,6 +19,7 @@ export const COLORS = {
   lightGray5:'#454A4A',
   transparent: 'transparent',
   darkgray: '#414143',
+  laywhite: '#F2F2F2',
 };
 
 export const SIZES = {
@@ -55,7 +56,7 @@ export const FONTS = {
   
   },
   h1: {fontFamily: 'Poppins-Bold', fontSize: 22, },
-  h2: {fontFamily: 'Poppins-Bold', fontSize: 17,letterSpacing:3 },
+  h2: {fontFamily: 'Poppins-Bold', fontSize: 17, },
   h3: {fontFamily: 'Poppins-Bold', fontSize: 20, },
   h4: {fontFamily: 'Poppins-Regular', fontSize: 15, },
   h6: {fontFamily: 'Poppins-Bold', fontSize: 1,},
